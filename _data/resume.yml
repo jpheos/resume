@@ -1,0 +1,45 @@
+fullname: "Joseph BLANCHARD"
+title: "Développeur"
+age: 30
+phone: "0622404418"
+email: "jooo.blanchard@gmail.com"
+
+languages:
+  - name: "Ruby"
+    level: 5
+    icon: "far fa-gem"
+  - name: "Javascript"
+    level: 4
+    icon: "fab fa-node-js"
+  - name: "HTML"
+    level: 4
+    icon: "fab fa-html5"
+  - name: "CSS"
+    level: 4
+    icon: "fab fa-css3-alt"
+frameworks:
+  - name: "Rails"
+    level: 5
+    icon: "far fa-gem"
+  - name: "Jetkyll"
+    level: 3
+    icon: "far fa-gem"
+  - name: "Angular"
+    level: 3
+    icon: "fab fa-angular"
+others:
+  - name: "Git"
+    level: 5
+    icon: "fas fa-code-branch"
+  - name: "GitHub"
+    level: 5
+    icon: "fab fa-github"
+  - name: "Heroku"
+    level: 5
+    icon: "fas fa-server"
+  - name: "Linux"
+    level: 3
+    icon: "fab fa-linux"
+  - name: "Docker"
+    level: 1
+    icon: "fab fa-docker"

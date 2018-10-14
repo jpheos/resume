@@ -1,0 +1,21 @@
+<div class="sidebar--skills">
+  <h3 class="title subtitle">{{include.title}}</h3>
+
+  <ul>
+  {% for skill in include.skills %}
+    <li>
+      <span class="name">{{skill.name}}</span>
+      <br>
+      {% for i in (1..5) %}
+        {% if i > skill.level %}
+          {% assign class = " skill-off" %}
+        {% else %}
+          {% assign class = "" %}
+        {% endif %}
+        <i class="{{ skill.icon }}{{class}}"></i>
+      {% endfor %}
+
+    </li>
+  {% endfor %}
+  </ul>
+</div>

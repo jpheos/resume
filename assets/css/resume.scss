@@ -1,0 +1,21 @@
+---
+---
+
+$primary-color: #0e3c60;
+
+@import "reset";
+@import "sidebar";
+@import "main";
+@import "experience";
+
+body {
+  background: #EEEEEE;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  min-height: 100vh;
+
+  display: flex;
+}
