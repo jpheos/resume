@@ -1,13 +1,28 @@
 ---
 ---
 <!doctype html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
+    <meta property="og:title" content="{{site.title}}" />
+    <meta property="og:description" content="{{site.meta.description}}" />
+    <meta property="og:image" content="{{site.meta.image | prepend:site.baseurl}}" />
+
+    <meta property="og:type"   content="profile" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <meta property="profile:first_name" content="Joseph" />
+    <meta property="profile:last_name" content="BLANCHARD" />
+    <meta property="profile:username" content="jpheos" />
+    <meta property="profile:gender" content="male" />
+
+
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ '/assets/css/resume.css' | prepend:site.baseurl }}">
+    <meta name="description" content="{{site.meta.description}}" />
 
 
+    {% include favicon.html %}
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   </head>
