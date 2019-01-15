@@ -11,9 +11,16 @@
   width: 120px;
 
   .logo {
-    width: 100px;
+    max-width: 100px;
+    max-height: 40px;
     margin: 15px 10px 0 10px;
   }
+
+  .dates {
+    margin: 0px 20px;
+    text-align: center;
+  }
+
 }
 
 .experience--content {
